@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hey Role Model</title>
+        <meta name="author" content="Jessica Piper">
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <!--All imgs come from heyrolemodel.com-->
+    <body class="darkMode">
+        <header>
+            <a href="#"><img id="logo" src="images/rmLogoWhite.avif" alt="white 'RM' logo with a transparent background"></a>
+            <h1><a href="#">Role Model</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button id="darkMode">Light/Dark Mode</button></li>
+                </ul>
+            </nav>
+            <img id="heroImg" src="images/heroImg.jpg" alt="a black and white photo of Role Model in a cowboy hat and leather jacket, his back is towards the camera and he is looking off to the side.">
+        </header>
+        <main>
+            <section id="intro">
+                <h2>Latest Release</h2>
+                <img src="images/kansasAnymore.jpg" alt="a black and white photo of Role Model in a cowboy hat and leather jacket, his back is to the camera looking off to the side.">
+                <p>Role Model's sophomore album, <cite>Kansas Anymore</cite>, delves into the aftermath of a tumultuous relationship. Struggling to find inspiration, he began the project in 2022 while touring but faced a personal crisis by summer 2023, feeling homesick and conflicted about his California-based relationship. Scrapping much of his work, he started anew, crafting a folky, cohesive album influenced by artists like Zach Bryan and War on Drugs. Collaborating with Jonah Shy, Scott Harris, and Noah Conrad, he found his sound and even worked with Ian Fitchuk on "Oh, Gemini." Despite the album's darker themes, tracks like "Look at That Woman" and "Scumbag" capture a nostalgic, summery vibe. Role Model eagerly anticipates performing these songs live, aiming to showcase his growth as a musician and capture the essence of his journey in <cite>Kansas Anymore</cite>.</p>
+            </section>
+            <section id="tour">
+                <h2>No Place Like Home Tour</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Get Tickets</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Nov 10, 2024</th>
+                            <td>The Academy<br>Dublin, Ireland</td>
+                            <td><a href="#tour">Tickets</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nov 12, 2024</th>
+                            <td>02 Institute Birmingham<br>Birmingham, UK</td>
+                            <td><a href="#tour">Tickets</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nov 13, 2024</th>
+                            <td>O2 Ritz Manchester<br>Manchester, UK</td>
+                            <td><a href="#tour">Tickets</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="3"><a href="#tour">See More Dates</a></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <section id="game">
+                <div>
+                    <h2>Guess To Win!</h2>
+                    <section id="gameDisplay">
+                        <h3>Win a Free Ticket to Your Local Show!</h3>
+                        <p>Enter a number between 1 and 10 in the box to the right and click the button to play. If your number matches, you win!</p>
+                        <div id="results" class="hide">
+                            <p id="gameMessage"></p>
+                        </div>
+                    </section>
+                    <form id="numGame">
+                        <label for="numGuess">Enter a Number Between 1 and 10:</label>
+                        <span class="message">Please enter a number from 1 to 10</span>
+                        <input type="number" name="numGuess" id="numGuess">
+                        <input type="submit" name="guessGame" id="guessGame" value="Play the Game!">
+                    </form>
+                </div>
+            </section>
+            <section id="music">
+                <h2>Featured Music Videos</h2>
+                <section id="video1" class="currentItem">
+                    <h3>Oh, Gemini</h3>
+                    <!--the iframes wont load unless you have a secure connection -->
+                    <!--i included the link to my github page for this so you are able to easily view this section-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/efJE6a71_ZM?si=n-Lvzs4eofDcoOB4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!--this quote is from role model in this article: https://hypebeast.com/2024/3/role-model-oh-gemini-single-stream-->
+                    <q>I was bracing for loss, it’s that human feeling that we want to mean something to someone after it’s all said and done, nobody wants to feel easily forgotten.</q>
+                    <p>Directed by William Desena and Tucker Pillsbury</p>
+                </section>
+                <section id="video2" class="hiddenItem">
+                    <h3>Deeply Still In Love</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/o76neRpa-og?si=F2nHUeg6n1XlSqOU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!--this quote is from this article: https://www.euphoriazine.com/blog/2024/05/music/tracks-role-model-deeply-still-in-love/ by nicole otero-->
+                    <q>'Deeply Still In Love' strikes a delicate balance between moving on and holding on, capturing the bittersweet essence of love and longing. With its nostalgic instrumentals and upbeat vocal delivery, it’s an anthem for anyone grappling with conflicting emotions and trying to find closure in the midst of chaos.</q>
+                    <p>Directed by Dylan Knight</p>
+                </section> 
+                <section id="video3" class="hiddenItem">
+                    <h3>Look At That Woman</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t_N3UgTL8s0?si=ipMiBX8TRWSSJcZS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!--this quote is from role model in this article: https://www.onestowatch.com/en/blog/role-model-drops-star-studded-look-at-that-woman-video-->
+                    <q>’Look At That Woman’ is a very nostalgic song that is looking back and regretting certain decisions. It’s my coping song disguised as a nice, easygoing little jam.</q>
+                    <p>Directed by Dylan Knight</p>
+                </section>
+                <section id="switcherButtons">
+                    <h2 class="sr-only">Click on a Button to View a Video</h2>
+                    <button id="btn1">Oh, Gemini</button>
+                    <button id="btn2">Deeply Still In Love</button>
+                    <button id="btn3">Look At That Woman</button>
+                </section>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form id="contactUs">
+                    <label for="fullName">Full Name<span class="required">*</span></label>
+                    <span class="message">Please enter your full name</span>
+                    <input type="text" name="fullName" id="fullName">
+
+                    <label for="myEmail">Email</label>
+                    <input type="email" name="myEmail" id="myEmail">
+
+                    <label for="myPhone">Phone (xxx-xxx-xxxx)</label>
+                    <input type="tel" name="myPhone" id="myPhone">
+
+                    <fieldset>
+                        <legend>Preferred Contact Method<span class="required">*</span></legend> 
+                        <input type="radio" name="preferredContact" id="prefEmail" checked>
+                        <label for="prefEmail">Email</label>
+
+                        <input type="radio" name="preferredContact" id="prefPhone">
+                        <label for="prefPhone">Phone</label>
+                        <span class="message">Please enter your email above</span>
+                        <span class="message">Please enter your phone number above</span>
+                    </fieldset>
+
+                    <label for="comments">Comments<span class="required">*</span></label>
+                    <span class="message">Please enter your comments</span>
+                    <textarea name="comments" id="comments"></textarea>
+
+                    <input type="submit" name="submitBtn" id="submitBtn">
+                </form>
+                <section id="success" class="hide">
+                    <h3>Thank you!</h3>
+                    <p>You have successfully submitted the form. Here is the information you sent us:</p>
+                    <p id="formSub"></p>
+                </section>
+                <img src="images/kaImg.jpg" alt="a grid of 19 black and white photos of role model and the blue 'rm' logo">
+            </section>
+        </main>
+        <footer id="copy">
+            <small>&copy; Interscope Records</small>
+            <ul>
+                <li><a href="#copy">Terms & Conditions</a></li>
+                <li><a href="#copy">Privacy Policy</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
