@@ -1,0 +1,30 @@
+[
+    {
+      "name": "geminis scare me camo hat",
+      "image": "https://shop.heyrolemodel.com/cdn/shop/files/PRODUCT_ROLE_24_ECOMM_LL_GEMINI_GEMINISCARE_CamoHat.png?v=1711989889&width=800",
+      "alt": "camo baseball cap with 'gemins scare me' embroidered in white on the front",
+      "price": "$35",
+      "purchase": "buy now"
+    },
+    {
+        "name": "kansas anymore - vinyl",
+        "image": "https://shop.heyrolemodel.com/cdn/shop/files/ROLE-0007-Album-Pre-Order_full.png?v=1715200445&width=800",
+        "alt": "light blue vinyl in a gray sleeve with a man wearing a cowboy hat looking over his shoulder",
+        "price": "$30",
+        "purchase": "buy now"
+      },
+      {
+        "name": "fangirl crewneck",
+        "image": "https://shop.heyrolemodel.com/cdn/shop/files/PRODUCT_ROLE_24_TOUR_LL_FANGIRLCREW_1.png?v=1722528263&width=800",
+        "alt": "creme crew neck sweater with 'fangirl' printed in red caps on the front",
+        "price": "$60",
+        "purchase": "buy now"
+      },
+      {
+        "name": "kansas anymore - cd",
+        "image": "https://shop.heyrolemodel.com/cdn/shop/files/RoleModelCDpackshotcopy.png?v=1715200387&width=1600",
+        "alt": "light blue cd in a gray case with a man wearing a cowboy hat looking over his shoulder",
+        "price": "$12",
+        "purchase": "buy now"
+      }
+]
